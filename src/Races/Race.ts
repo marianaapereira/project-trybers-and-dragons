@@ -1,7 +1,3 @@
-// Esse número corresponde à quantidade de instâncias criadas a partir das classes estendidas da classe Race;
-// Cada raça terá seu número máximo de instâncias, que será definido dentro de cada classe especializada;
-// Na classe Race, o método deve lançar um erro com a mensagem Not implemented.
-
 abstract class Race {
   private _name: string;
   private _dexterity: number;

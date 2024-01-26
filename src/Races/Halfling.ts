@@ -1,8 +1,9 @@
 import Race from './Race';
-import maxLifePoints from '../consts/maxLifePoints.consts';
+
+const HALFLING_MAX_LIFE_POINTS = 60;
 
 class Halfling extends Race {
-  private _maxLifePoints = maxLifePoints.halfling;
+  private _maxLifePoints = HALFLING_MAX_LIFE_POINTS;
   private static _createdRacesInstances = 0;
 
   get maxLifePoints(): number {

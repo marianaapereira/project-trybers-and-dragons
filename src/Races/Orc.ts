@@ -1,8 +1,9 @@
 import Race from './Race';
-import maxLifePoints from '../consts/maxLifePoints.consts';
+
+const ORC_MAX_LIFE_POINTS = 74;
 
 class Orc extends Race {
-  private _maxLifePoints = maxLifePoints.orc;
+  private _maxLifePoints = ORC_MAX_LIFE_POINTS;
   private static _createdRacesInstances = 0;
 
   get maxLifePoints(): number {

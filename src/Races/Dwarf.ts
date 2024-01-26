@@ -1,8 +1,9 @@
 import Race from './Race';
-import maxLifePoints from '../consts/maxLifePoints.consts';
+
+const DWARF_MAX_LIFE_POINTS = 80;
 
 class Dwarf extends Race {
-  private _maxLifePoints = maxLifePoints.dwarf;
+  private _maxLifePoints = DWARF_MAX_LIFE_POINTS;
   private static _createdRacesInstances = 0;
 
   get maxLifePoints(): number {

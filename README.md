@@ -8,7 +8,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
 
-# Trybers and Dragons 🐉
+# Trybers and Dragons 🐉 [![wakatime](https://wakatime.com/badge/user/d430e1a8-f726-4da0-96fd-ac14f7a37701/project/018d41e2-83ec-4fc1-b99f-0349afe34874.svg)](https://wakatime.com/badge/user/d430e1a8-f726-4da0-96fd-ac14f7a37701/project/018d41e2-83ec-4fc1-b99f-0349afe34874)
 
 Projeto aplicando os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de RPG (Role Playing Game).
 
